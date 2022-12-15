@@ -14,7 +14,8 @@ logo:
 toc:
   enable: true
 oasDefinitions:
-  petstore: ./openapi/petstore.yaml
+  petstore: https://api.redocly.com/registry/bundle/test-goa/Test%20API/v1/openapi.yaml?branch=main
+  petstore-v2: ./openapi/petstore.yaml
   # add links to definitions in our API registry by using a fully qualified URL.
 stylesheets:
   - https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap
