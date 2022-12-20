@@ -1,0 +1,12 @@
+/* Monospace */
+@font-face {
+    font-family: 'Monospace';
+    font-style: normal;
+    font-weight: 600;
+    src: url('monospace.eot');
+    src: url('monospace.eot?#iefix') format('embedded-opentype'),
+         url('monospace.woff2') format('woff2'),
+         url('monospace.woff') format('woff'),
+         url('monospace.ttf')  format('truetype'),
+         url('monospace.svg#monospace') format('svg');
+}

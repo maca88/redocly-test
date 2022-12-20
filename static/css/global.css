@@ -1,0 +1,7 @@
+nav,
+footer {
+    background-color: radial-gradient(59.68% 59.68% at 20.05% 20.14%, var(--color-blue0-100) 33.33%, var(--color-blue1-100)  100%);
+    color: var(--color-white-100);
+    
+    background-color: radial-gradient(59.68% 59.68% at 20.05% 20.14%, rgba(0,38,117,1) 33.33%, rgba(10,10,64,1) 100%);
+}

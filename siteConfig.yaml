@@ -1,5 +1,5 @@
 meta:
-  title: Redocly Training
+  title: ReconHub | Interface documentation
   description: The best API documentation generator ever.
   siteUrl: https://developer-portal-starter.redoc.ly
   keywords: redocly developer portal, api portal starter, api reference docs
@@ -8,9 +8,7 @@ linkChecker:
   severity: warning
   options:
     CheckExternal: false
-logo:
-  image: ./images/logo.png
-  altText: Redocly Training
+logo: ./static/logos/logo-reconhub-wordmark-white.svg
 toc:
   enable: true
 oasDefinitions:
@@ -18,8 +16,11 @@ oasDefinitions:
   petstore-v2: ./openapi/petstore.yaml
   # add links to definitions in our API registry by using a fully qualified URL.
 stylesheets:
-  - https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap
-  - https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,600,700&display=swap
+  - './static/fonts/noto-sans-display/style.css'
+  - './static/fonts/monospace/style.css'
+  - './static/css/variables.css'
+  - './static/css/global.css'
+  - './static/css/font.css'
 #analytics:
   # ga:
   # note that GA doesn't work in the development environment
@@ -28,29 +29,24 @@ stylesheets:
 #  - ./static/intercom.js
 nav:
 
-  - label: Training exercises
+  - label: Interface Docs
     page: developer-portal/index.md
-
-  - label: External docs
-    icon: ./images/redocly-icon-white.png
-    href: https://redoc.ly/docs/developer-portal/introduction/
-
+  - label: Learn Center
+    href: 'https://learn.reconhub.cloud'
+  - label: ReconHub App
+    href: 'https://app.reconhub.cloud'
   - search: true
 
 footer:
-  copyrightText: Copyright © Redocly 2019-2021. All right reserved.
+  copyrightText: ReconHub by Abrantix
   columns:
     - group: Legal
       items:
-        - label: Terms of Use
-          href: 'https://redoc.ly/subscription-agreement/'
-        - label: Privacy Notice
-          href: 'https://redoc.ly/privacy-notice/'
-        - label: Cookie Notice
-          href: 'https://redoc.ly/cookie-notice/'
+        - label: Legal notice
+          href: 'https://www.abrantix.com/en/legal-notice.html'
+        - label: Privacy policy
+          href: 'https://www.abrantix.com/en/privacy-policy.html'
     - group: Support
       items:
-        - label: FAQ
-          page: faq.md
-        - label: Contact us
-          page: contact.mdx
+        - label: Support tickets
+          href: 'https://learn.reconhub.cloud/portal/en/myarea'
