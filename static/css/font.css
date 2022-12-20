@@ -1,0 +1,22 @@
+@import "../fonts/noto-sans-display/style.css";
+@import "../fonts/monospace/style.css";
+  
+body {
+    color: var(--color-blue0-100);
+    font-family: var(--font-familiy-noto-sans-display);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: var(--font-weight-regular);
+    font-stretch: 87.5%;
+    line-height: var(--line-height-m);
+}
+h1 {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-strong);
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: var(--color-turquoise-100);
+    text-decoration-thickness: 0.2rem;
+    line-height: var(--line-height-xl);
+    margin: var(--spacing-3xl) 0 var(--spacing-xl) 0;
+}
